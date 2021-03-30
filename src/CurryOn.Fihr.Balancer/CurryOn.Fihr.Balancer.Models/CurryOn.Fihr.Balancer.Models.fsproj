@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>CurryOn.Fihr.Balancer.V1.Models</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Endpoint.Dto.fs" />
+    <Compile Include="Request.Dto.fs" />
+    <Compile Include="Request.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CurryOn.Domain" Version="0.1.0-prerelease" />
+    <PackageReference Include="CurryOn.Fihr.Abstractions" Version="0.1.0-prerelease" />
+    <PackageReference Include="CurryOn.Serialization" Version="0.1.0-prerelease" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>

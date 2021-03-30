@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CurryOn.Fihr.Balancer.Models", "CurryOn.Fihr.Balancer.Models\CurryOn.Fihr.Balancer.Models.fsproj", "{A37A56C1-4D77-46E8-A74F-B96263EF2D09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37A56C1-4D77-46E8-A74F-B96263EF2D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37A56C1-4D77-46E8-A74F-B96263EF2D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37A56C1-4D77-46E8-A74F-B96263EF2D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37A56C1-4D77-46E8-A74F-B96263EF2D09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {470F6032-B1AB-41AE-BA74-8C27D4D97EB9}
+	EndGlobalSection
+EndGlobal
